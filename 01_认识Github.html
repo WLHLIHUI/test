@@ -55,7 +55,19 @@
                 11、确定github上仓库的地址（拷贝下来）
 
                 12、先给电脑授权，生成ssh密匙
-                    ssh-keygen -t rsa -C "邮箱地址"
+                    ssh-keygen -t rsa -C "当前github账户的邮箱地址"
+
+                13、查找到一个影藏文件
+                    windows->我的电脑->用户->用户名文件夹->  .ssh的隐藏文件->id_rsa.pub文件(存有密匙)
+
+                14、github账户配置密匙
+                    setting->ssh->新增
+
+                15、暂存区===>远程仓库
+                    命令1： git remote and origin 仓库地址
+                    命令2： git push -u origin master 将本地的库推送到master分支（就是推送到服务器上）
+
+                【注】提交过程中，可能要求你输入用户名和密码
         */
 
     </script>
